@@ -1,5 +1,5 @@
 ## This is an issue tracker in progress. 
-<br />At the moment, it is only a react app (and it uses HashRouter instead of BrowserRouter to make the code simple, since this is just a work-in-progress demo), but will eventually use the entire MERN stack.
+<br />At the moment, it is only a React app (and it uses HashRouter instead of BrowserRouter to make the code simple, since this is just a work-in-progress demo), but will eventually use the entire MERN stack.
 <br /> **The web app can be viewed here  https://silvatn.github.io/issue-tracker-in-progress-demo/**
 
 <br /> The original repo can be viewed here https://github.com/SilvaTN/issue-tracker
