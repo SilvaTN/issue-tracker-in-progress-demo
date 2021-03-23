@@ -29,7 +29,6 @@ function App() {
       <CssBaseline />
       
       {location.pathname !== "/login"
-        // ? <CopiedDrawer propPassedNavTo={navigateTo} />
         ? <DrawerAndAppBar propPassedNavTo={navigateTo} open={drawerOpen} setOpen={setDrawerOpen} />
         : <span></span>  //not sure how else to make DrawerAndAppBar go away
       }
@@ -38,7 +37,6 @@ function App() {
         <Route path="/login">
           <SignIn propPassedNavTo={navigateTo} />
         </Route>
-        {/* w/out exact, the app displays <Home /> instead of going to the correct Route... unless the code of the Route is located above it, i.e. Sign displays correctly. */}
         <Route exact path="/">
           <Home open={drawerOpen} />
         </Route>
