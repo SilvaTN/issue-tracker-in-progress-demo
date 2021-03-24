@@ -22,7 +22,7 @@ import NotificationsIcon from '@material-ui/icons/Notifications';
 import { withRouter } from "react-router-dom";
 
 
-const DRAWER_WIDTH = 240;
+const DRAWER_WIDTH = 170;
 
 const useStyles = makeStyles((theme) => ({
     root: {
