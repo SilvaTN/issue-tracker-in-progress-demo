@@ -5,11 +5,11 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { HashRouter as Router } from "react-router-dom";
 import { createMuiTheme, ThemeProvider } from '@material-ui/core';
-import { pink, amber } from '@material-ui/core/colors';
+import { purple, amber } from '@material-ui/core/colors';
 
 const myTheme = createMuiTheme({
   palette: {
-    primary: pink,
+    primary: purple,
     secondary: amber,
   }
 })
